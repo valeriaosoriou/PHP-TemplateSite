@@ -82,7 +82,7 @@ nav{
 }
 
 /* CONTACT FORM */
-#name{
+/* #name{
 	margin-left: 12px;
 }
 #email{
@@ -91,9 +91,7 @@ nav{
 #submit{
 	width:100px;
 	height:40px;
-	background: #764d30;
-	color:#ffe4c4;
-}
+} */
 
 /* FOOTER */
 footer{

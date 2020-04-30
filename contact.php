@@ -1,8 +1,8 @@
 <?php
 // error_reporting(E_ALL); ini_set('display_errors', 1);
-$title = "Contact";
-$description ="Description of the Contact page";
-require("templates/header.php");
+	$title = "Contact";
+	$description ="Description of the Contact page";
+	require("templates/header.php");
 ?>
 
 
@@ -26,27 +26,18 @@ The enctype attribute can be used only if method="post". -->
 So, the $_SERVER["PHP_SELF"] sends the submitted form data to the page itself, instead of jumping to a different page.
 This way, the user will get error messages on the same page as the form. -->
 
-<main class="px-5">
-
-	<form action="contact.php" method="post" class="px-0 my-5">
-
-		<label for = "name"> Name </label>
-		<input class="rounded-pill mx-3" type="text" id="name" name="name"> <br> <br>
-
-		<label for = "email"> Email </label>
-		<input class="rounded-pill mx-4" type="text" id="email" name="email"><br> <br>
-
-
-		<label for = "subject"> Subject </label>
-		<input class="rounded-pill mx-2" type="text" id="subject" name="subject" size="35"><br> <br>
-
-		<input type="submit"  class="px-3 rounded-pill">
-
+<main class="container page-content">
+	<form action="contact.php" method="post" class="container">
+		<label for = "name"> N a m e </label>
+		<input class="rounded-pill btn-block" type="text" id="name" name="name"> <br> <br>
+		<label for = "email"> E m a i l </label>
+		<input class="rounded-pill btn-block" type="text" id="email" name="email"><br> <br>
+		<label for = "subject"> S u b j e c t </label>
+		<input class="rounded-pill btn-block" type="text" id="subject" name="subject" size="35"><br> <br>
+		<input type="submit"  class="rounded-pill btn-block btn-lg">
 	</form>
-
 </main>
 
-
 <?php
-require("templates/footer.php");
+	require("templates/footer.php");
 ?>
