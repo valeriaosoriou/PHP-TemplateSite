@@ -11,15 +11,16 @@
 </head>
 
 <body class="bg-light">
+	
+	<?php
+		require("templates/nav.php");
+	?>
+
 	<div class="container-fluid">
 		<header>
-			<div class="banner">
-				<img src="images/banner.jpg" alt="Coffee Banner" class="coffee-banner"/>
+			<div>
+				<img src="images/banner.jpg" alt="Coffee Banner" class="img-landing"/>
 			</div>
-
 		</header>
 
-		<?php
-		require("templates/nav.php");
-
-		?>
+		

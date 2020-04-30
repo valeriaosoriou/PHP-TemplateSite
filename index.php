@@ -11,30 +11,15 @@
 
     // include("templates/header.php");
 
-$title="Home";
-
-$description = "Description of the Home page";
-
-require("templates/header.php");
-
-//require("templates/nav.php");
+    $title="Home";
+    $description = "Description of the Home page";
+    require("templates/header.php");
 ?>
 
-
-<main class="px-5 py-5">
-	<h1 class="mb-5"> Home Page </h1>
-
-
-	<p> This is my Home Page</p>
-
+<main class="px-5 py-5 page-content para-index">
+	<p class="mb-5"> May your coffe<br> kick in before reality<br> does </p>
 </main>
 
-
-
 <?php
-
-require("templates/footer.php");
-
-
-
+    require("templates/footer.php");
 ?>
